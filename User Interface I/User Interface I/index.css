@@ -1,0 +1,255 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+.navigation-container {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 5;
+}
+
+
+.header-content {
+	text-align: center;
+	margin: 60px;
+	margin-bottom: 70px;
+}
+
+.nav-content {
+	display: block;
+  	width: 880px;
+  	height: 100px;
+  	margin: 0 auto;
+  	position: relative;
+}
+
+nav  a {
+	text-decoration: none;
+  	color: grey;
+  	margin: 35px 31px 0 31px;
+  	font-size: 14px;
+  	display: inline-block;
+	
+}
+
+.nav-content a:hover {
+	color: rgb(176, 177, 178);
+  }
+
+.nav-content a:first-child {
+	margin-left: 0;
+  }
+
+.nav-content section {
+	display: inline-block;
+	position: absolute;
+	right: 0;
+  }
+}
+
+nav div {
+	display: inline-block;
+    position: absolute;
+	right: 0;
+}
+
+
+.call2auction {
+	display: inline-block;
+    width: 49%;
+    vertical-align: top;
+    margin-top: 50px;
+}
+
+h1 {
+	font-size: 80px;
+}
+
+.header-button {
+	border: 1px solid black;
+    font-size: 20px;
+    padding: 5px 40px;
+}
+
+img {
+	margin-top: 2px;
+  }
+
+.circle-img-container {
+	display: inline-block;
+	width: 50%;
+	text-align: right;	
+}
+
+#main {
+	border-top: 1px solid black;
+    margin: 0 40px 40px;
+    padding-top: 40px;	
+}
+
+footer {
+    margin: 0 40px 40px;
+	padding: 40px 0;	
+}
+
+.top-content {
+	margin-top: 0px;
+
+}
+
+.middle-content {
+	display: inline-block;
+    width: 100%;
+	text-align: center;
+}
+
+.bottom-content {
+	margin-top: 40px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid black;
+}
+
+.features {
+	display: inline-block;
+    width: 50%;
+}
+
+.about {
+	display: inline-block;
+    width: 49%;	
+}
+
+.middle-img {
+	display: inline-block;
+	width: 100%;
+	margin-top: 40px;
+}
+
+.bottom-content div {
+	display: inline-block;
+    width: 33%;
+}
+  
+.bottom-content div p {
+	line-height: 1.16;
+  }
+
+  header {
+	position: relative;
+	height: 490px;
+  }
+  
+  header div{
+	  display: inline-block;
+	  text-align: center;
+	  margin: 70px 0 0 85px;
+  }
+  header img {
+	display: inline-block;
+	position: absolute;
+	right: 0;
+  }
+
+  .website-wrapper {
+	width: 880px;
+	margin: 130px auto 0 auto;
+	z-index: 1;
+  }
+
+  header div h1 span {
+	display: block;
+  }
+
+  header div a {
+	text-decoration: none;
+	color: black;
+	border: 1px solid black;
+	padding: 4px 50px;
+  }
+
+  address {
+	margin-top: 38px;
+  }
+  
+  address div {
+	line-height: 1.16;
+  }
+  
+  address div span {
+	display: inline-block;
+	margin: 17px 0 18px 0;
+  }
+
+  footer {
+	width: 100%;
+	height: 183px;
+	text-align: center;
+  }
+  
+  footer p {
+	margin-top: 54px;
+	font-size: 14px;
+  }
